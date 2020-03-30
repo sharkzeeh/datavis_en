@@ -1,29 +1,44 @@
 <!DOCTYPE>
-<html>
-<head>
-    <title>ПРАКТИКА 1</title>
-    <meta charset="utf8">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+<hmtl>
+    <head>
+        <title>
+            Домашнее задание 1
+        </title>
+        <meta charset = "utf-8">
+        <!-- <meta http-equiv="refresh" content="5"> -->
+        <link rel="stylesheet" href="css/style.css">
+        </style>
+    </head>
     <body>
+        
+        <div>
+            <input type="checkbox" id="smileCheck"
+            checked onclick="fun()" >
+            <label for="smileCheck" id="smileLabel">Happy</label>
+        </div>
+
         <svg width="500" height="300">
             <g>
-               <circle cx="250" cy="150" r="150" fill="yellow">
-                </circle>
-                <ellipse cx="300" cy="100" rx="25" ry="50" 
-                    fill="black"></ellipse>
-                <path stroke="black" fill="none"
-                    d="M 150 200 Q 225 300 300 200">
+                <circle cx="250" cy="150" r="150" fill="yellow"></circle>
+                <ellipse cx="300" cy="100" rx="25" ry="50"
+                fill="black"></ellipse>
+
+                <path stroke="black"
+                d = "M 150 200 Q 225 300 300 200"
+                fill="transparent" stroke-width="6">
                 </path>
-                <ellipse class="left-eye" cx="175" cy="110" rx="25" ry="50"
-                    fill="black">
-                </ellipse>
-                <rect x="150" y="100" width="50" height="25"
-                    fill="black"></rect> 
+                
+                <ellipse class = "left-eye"
+                cx = "175" cy = "110" rx = "25" ry = "50"
+                fill="k"></ellipse>
+                
+                <rect x="150" y="100" width="40" height="15"
+                    fill="k"></rect>
             </g>
         </svg>
+
         <script type="text/javascript" src="js/index.js">
-      
         </script>
+
     </body>
-</html>
+</hmtl>
